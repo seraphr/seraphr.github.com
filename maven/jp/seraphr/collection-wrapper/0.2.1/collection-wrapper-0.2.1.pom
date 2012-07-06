@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>jp.seraphr</groupId>
-	<artifactId>collection-util</artifactId>
-	<version>0.2</version>
+	<artifactId>collection-wrapper</artifactId>
+	<version>0.2.1</version>
 	<packaging>jar</packaging>
 
-	<name>collection</name>
+	<name>collection-wrapper</name>
 	<properties>
 		<scala.version>2.9.2</scala.version>
 		<!-- Common plugin settings -->
@@ -24,6 +24,7 @@
 			<url>http://seraphr.github.com/maven/</url>
 		</repository>
 	</repositories>
+
 
 	<distributionManagement>
 		<repository>
@@ -117,8 +118,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>jp.seraphr</groupId>
-			<artifactId>seraph-java-common</artifactId>
-			<version>0.2</version>
+			<artifactId>collection-util</artifactId>
+			<version>0.2.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.scala-lang</groupId>

@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>jp.seraphr</groupId>
-	<artifactId>collection-util</artifactId>
-	<version>0.2</version>
+	<artifactId>seraph-java-common</artifactId>
+	<version>0.2.1</version>
 	<packaging>jar</packaging>
 
-	<name>collection</name>
+	<name>seraph-java-common</name>
 	<properties>
 		<scala.version>2.9.2</scala.version>
 		<!-- Common plugin settings -->
@@ -16,14 +16,6 @@
 		<!-- vscaladoc settings -->
 		<maven.scaladoc.vscaladocVersion>1.2-m1</maven.scaladoc.vscaladocVersion>
 	</properties>
-
-	<repositories>
-		<repository>
-			<id>seraph-repo</id>
-			<name>seraph-repo</name>
-			<url>http://seraphr.github.com/maven/</url>
-		</repository>
-	</repositories>
 
 	<distributionManagement>
 		<repository>
@@ -60,7 +52,6 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>compile</goal>
 							<goal>testCompile</goal>
 						</goals>
 					</execution>
@@ -116,14 +107,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>jp.seraphr</groupId>
-			<artifactId>seraph-java-common</artifactId>
-			<version>0.2</version>
-		</dependency>
-		<dependency>
 			<groupId>org.scala-lang</groupId>
 			<artifactId>scala-library</artifactId>
 			<version>${scala.version}</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
