@@ -3,11 +3,12 @@
   <groupId>jp.seraphr</groupId>
   <artifactId>seraph-java-common</artifactId>
   <versioning>
-    <release>0.2.1</release>
+    <release>0.3</release>
     <versions>
       <version>0.2</version>
       <version>0.2.1</version>
+      <version>0.3</version>
     </versions>
-    <lastUpdated>20120706155104</lastUpdated>
+    <lastUpdated>20120713100530</lastUpdated>
   </versioning>
 </metadata>
