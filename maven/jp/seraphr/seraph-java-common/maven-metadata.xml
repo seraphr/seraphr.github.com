@@ -3,7 +3,7 @@
   <groupId>jp.seraphr</groupId>
   <artifactId>seraph-java-common</artifactId>
   <versioning>
-    <release>0.8.2</release>
+    <release>0.8.3</release>
     <versions>
       <version>0.2</version>
       <version>0.2.1</version>
@@ -15,7 +15,8 @@
       <version>0.8</version>
       <version>0.8.1</version>
       <version>0.8.2</version>
+      <version>0.8.3</version>
     </versions>
-    <lastUpdated>20120831150911</lastUpdated>
+    <lastUpdated>20130129140503</lastUpdated>
   </versioning>
 </metadata>
